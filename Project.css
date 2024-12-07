@@ -1,0 +1,180 @@
+/* Basic styling for the navigation bar */
+nav {
+    background-color: skyblue; /* Sky blue background for the navbar */
+    padding: 10px;
+    text-align: center; /* Center the navigation links */
+    position: sticky; /* Makes the nav bar stick to the top on scroll */
+    top: 0;
+    z-index: 1000; /* Ensures the navbar appears above other content */
+    border-bottom: 2px solid white; /* Adds a clean separation below the navbar */
+}
+
+nav ul {
+    list-style: none; /* Removes default list styles */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between nav links */
+}
+
+nav li {
+    display: inline-block; /* Inline-block layout for individual items */
+}
+
+nav a {
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline */
+    font-size: 18px; /* Adjust font size for better visibility */
+    padding: 8px 16px; /* Adds spacing inside links */
+    border-radius: 5px; /* Adds rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: white; /* Highlight with white background */
+    color: skyblue; /* Change text color to sky blue */
+}
+
+/* Styling for the banner */
+.banner {
+    background-image: url('Physics.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.banner p {
+    font-size: 18px;
+}
+
+/* User-provided image */
+.user-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for image placeholders */
+.image-placeholder {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Placeholder color */
+    text-align: center;
+    line-height: 300px; /* Center text vertically */
+    color: #aaa; /* Placeholder text color */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Section styling */
+section {
+    margin-top: 20px;
+}
+
+/* New contact form and layout styles */
+
+/* Container for the contact section */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Left column of the contact section */
+.contact-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Right column of the contact section (contact form) */
+.contact-form {
+    flex: 1;
+}
+
+/* Styling for form fields */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Label for each form field */
+.contact-form label {
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Footer text */
+footer p {
+    margin: 0;
+}
+
+/* Contact section text styling */
+.contact-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-section p {
+    font-size: 16px;
+}
+
+/* Styling for the contact form and page layout */
+.contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form-container {
+    width: 48%;
+}
+
+.contact-info-container {
+    width: 48%;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-info-container p {
+    font-size: 16px;
+}
+
+.contact-form-container label {
+    font-weight: bold;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

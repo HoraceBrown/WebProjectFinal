@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Memory Zone</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: skyblue;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav li {
+            display: inline-block;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: white;
+            color: skyblue;
+            border-radius: 5px;
+        }
+
+        /* Contact Section Styling */
+        .contact-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .contact-section h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .contact-section p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: left;
+        }
+
+        .contact-form label {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: skyblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover {
+            background-color: #4e91d8; /* Darker blue for button hover */
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ccc;
+        }
+        footer p {
+            margin: 5px 0;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Horace_Brown Historypage.html">Homepage</a></li>
+                <li><a href="Horace_Brown AboutUsPage.html">About Us</a></li>
+                <li><a href="Horace_Brown Historypage.html">History</a></li>
+                <li><a href="Horace_Brown VideosPage.html">Videos</a></li>
+                <li><a href="Horace_Brown DonatePage.html">Donate</a></li>
+                <li><a href="Horace_BrownContactPage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>Your feedback and getting in touch with us is greatly wanted...</h1>
+            <p>Our Address: 123 Main Way, Crator 1 Mars.</p>
+            <p>Contact Details: 1234567789 – Main, 9876565556 – Fax</p>
+
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="phone">Phone *</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Memory Zone</p>
+        <p><a href="mailto:hbrown26@my.westga.edu">hbrown26@my.westga.edu</a></p>
+    </footer>
+
+</body>
+</html>
